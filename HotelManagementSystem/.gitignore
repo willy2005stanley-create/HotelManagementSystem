@@ -1,0 +1,33 @@
+# Python / virtualenv
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Streamlit / local artifacts
+.streamlit/
+streamlit_out*.txt
+streamlit_err*.txt
+
+# Secrets / local config
+.secrets/
+.env
+.env.local
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary / build
+build/
+dist/
+*.egg-info/
